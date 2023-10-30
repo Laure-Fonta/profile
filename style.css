@@ -1,0 +1,105 @@
+body {
+  background-color:#FF5D8F;
+  font-family: 'Roboto', sans-serif;
+  color: #252422;
+  font-size: 16px;
+  font-weight: 40;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #252422;
+  font-size: 35px;
+  font-family: 'Bungee Shade', sans-serif;
+  font-weight : 400;
+}
+
+h2 {
+  color:#403D39;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 50;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover{
+  color:#fcf300;
+  font-weight: 1500;
+}
+
+.pink-btn {
+  background-color: #b3055e;
+  text-align: justify;
+  padding: 5px;
+  border-radius: 9%;
+}
+
+.container {
+  width: 100%;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+
+#profile-picture-round{
+  border-radius: 50%;
+  box-shadow:5px 5px 3px #403D39;
+  }
+
+.card{
+  background: #FFCAD4;                       /* White background */
+  width: 600px;        /* Set the width */
+  margin: 10 auto;
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  box-sizing: border-box;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 700px
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 500px
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 300px;
+  }
+  body {
+    width: 300px
+  }
+}
